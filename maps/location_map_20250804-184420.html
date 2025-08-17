@@ -1,0 +1,32 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Location Map - Ghana</title>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+            <style>
+                #map { height: 500px; width: 100%; }
+                body { margin: 0; padding: 20px; font-family: Arial, sans-serif; }
+                .info { margin-bottom: 20px; }
+            </style>
+        </head>
+        <body>
+            <div class="info">
+                <h2>📍 Location Information</h2>
+                <p><strong>Location:</strong> Ghana</p>
+                <p><strong>Coordinates:</strong> 8.0300284, -1.0800271</p>
+            </div>
+            <div id="map"></div>
+            <script>
+                var map = L.map('map').setView([8.0300284, -1.0800271], 13);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(map);
+                L.marker([8.0300284, -1.0800271]).addTo(map)
+                    .bindPopup("Ghana")
+                    .openPopup();
+            </script>
+        </body>
+        </html>
+        
