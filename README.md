@@ -1,11 +1,12 @@
 # numverify
 CLI based tool to track location and more info of mobile numbers
 
-![num](https://user-images.githubusercontent.com/82051128/236649970-a4f8622e-e0e3-4e5c-bf6b-ecd478c6c75c.PNG)
+
+<img width="939" height="558" alt="num" src="https://github.com/user-attachments/assets/61f26c36-da54-4990-8f8d-6a87415dcd93" />
 
 # Installation:
      1. For Linux Users:
-        a) git clone https://github.com/machine1337/numverify.git
+        
         b) cd numverify
         c) python3 num.py
         
@@ -27,4 +28,5 @@ CLI based tool to track location and more info of mobile numbers
 
 # Author
   Telegram:- https://t.me/machine1337
+
 
